@@ -13,7 +13,7 @@ Public marketplace for Coconut's Claude Code plugins.
 ```
 
 ```bash
-/plugin install coco-context@coconut
+/plugin install coco-context@coco
 ```
 
 `coco-context` prompts for **Coco MCP endpoint** at enable time, defaulting to
