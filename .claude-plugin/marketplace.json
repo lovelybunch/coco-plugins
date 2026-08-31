@@ -12,8 +12,8 @@
     {
       "name": "coco-context",
       "source": {
-        "source": "github",
-        "repo": "lovelybunch/coco-context"
+        "source": "url",
+        "url": "https://github.com/lovelybunch/coco-context.git"
       },
       "description": "Coconut Context is a shared, living context layer for your organization — one source of truth that humans and AI agents both work from. This plugin connects Claude Code to it: search, read, and write shared and personal pages, organize them into spaces, and create, run, and inspect scheduled agent tasks. Ships the MCP server and nothing else — no skills, hooks, or agents.",
       "category": "knowledge",

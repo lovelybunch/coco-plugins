@@ -35,8 +35,10 @@ of marketplace changes.
 
 1. Create the plugin in its own public repository, with
    `.claude-plugin/plugin.json` at the repository root.
-2. Add an entry to `.claude-plugin/marketplace.json` with a `github` source
-   naming that repository.
+2. Add an entry to `.claude-plugin/marketplace.json` with a `url` source
+   giving that repository's full `https://` clone URL. Do **not** use a
+   `github` source: Claude Code expands those to `git@github.com:owner/repo.git`
+   and the install fails for anyone without a GitHub SSH key.
 3. Validate both, then push:
 
 ```bash
